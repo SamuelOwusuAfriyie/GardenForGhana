@@ -1,0 +1,230 @@
+$bg-color:#333;
+$font-color:#fff;
+$primary-color:#008ed6;
+$icon-size: 30px;
+
+body {
+  background-color: $bg-color;
+  color: $font-color;
+}
+.navbar {
+  border-bottom: white 3px solid;
+  opacity: 0.8;
+  background: orange !important;
+
+}
+nav .navbar-nav li a{
+  color: black !important;
+  }
+  nav .navbar-nav li a:hover {
+  color: red !important;
+  }
+
+
+#home-section {
+  background:url('https://i.imgur.com/X2k3avB.jpg') no-repeat;
+  min-height: 700px;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white !important;
+  .fon {
+    font-size: 18px;
+
+  }
+  .dark-overlay {
+    background-color:#F1803A;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left:0;
+    width:100%;
+    min-height: 700px;
+  }
+
+  .home-inner {
+    padding-top: 150px;
+  }
+  .card-form {
+    opacity: 0.8;
+  }
+  .fa {
+    color:#0CB206;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: $icon-size;
+  }
+}
+
+#explore-head-section {
+  background: #8E2F03;
+  color: #fff !important;
+}
+
+#eplore-section {
+  background: #F06A11 !important;
+  color: white !important;
+  h3 {
+    color: #76FF03;
+  }
+  p:hover {
+    cursor: pointer;
+  }
+  .fa {
+    color:#0CB206;
+    background: yellow;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: $icon-size;
+  }
+}
+
+#create-head-section {
+  background: #F57D40 !important;
+  p {
+    color: #fff !important;
+  }
+  p:hover {
+    cursor: pointer;
+  }
+}
+
+
+#create-section {
+  background-color: #FFAB00;
+  color: black !important;
+  h3 {
+    color: #2D7C20;
+  }
+  p:hover {
+    cursor: pointer;
+  }
+  .fa {
+    color:#2D7C20;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: $icon-size;
+  }
+}
+#boxP {
+  background: #F27F40;
+  height: inherit;
+  width: 100%;
+}
+#village {
+  color: green;
+}
+.find {
+  background: #F36B08 !important;
+  color: white !important;
+}
+.find:hover {
+  color: yellow !important;
+}
+#boxO {
+  height: inherit;
+  width: 100%;
+  background: #893103;
+  h1 {
+    color: black !important;
+  }
+}
+#main-footer {
+  background-image: url("https://i.imgur.com/8korEag.jpg");
+}
+
+@media only screen and (max-width: 700px) {
+#home-section {
+      min-height: 1260px;
+}
+}
+.galleryBody {
+  margin: 0;
+  padding: 0;
+  background: #262626 !important;
+  font-family: sans-serif;
+}
+.container1 {
+  width: 1280px;
+  margin: 70PX auto 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container1 .box {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: #ff0;
+  margin: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.container1 .box .imgBox {
+  position: relative;
+  overflow: hidden;
+}
+.container1 .box .imgBox img {
+  max-width: 100%;
+  transition: transform 2s;
+}
+.container1 .box:hover .imgBox img {
+  transform: scale(1.2);
+}
+.container1 .box .details {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  transform: scaleY(0);
+  transition: transform .5s;
+}
+.container1 .box:hover .details {
+  transform: scaleY(1);
+}
+.container1 .box .details .content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+}
+.container1 .box .details .content h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: #ff0;
+}
+.container1 .box .details .content p {
+  margin: 10px 0 0;
+  padding: 0;
+}
+.left {
+  float: left;
+  height: 350px;
+  width: 350px;
+  padding-right: 15px;
+
+}
+.logo {
+  height: 50px;
+  width: 50px;
+}
+#member-section {
+  background-color: white;
+  color: black;
+}
+#linkP {
+  color: yellow !important;
+}
+#poster {
+  width: 90%;
+  margin-left: 60px;
+}
+#poster-section {
+  background: #2D7C20;
+}

@@ -1,0 +1,1 @@
+This static website was built with boostrap and css for styling; html for structuring the web document. Formspree was used to send an email from the user perspective to the client email. alertify.js was used as an alert notify since it has a stylish alert pops window. gulpfile.js was used as a server run for the localhost project
